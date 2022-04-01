@@ -26,7 +26,7 @@ Mat RGB2Gray(Mat input)
 
 int main()
 {
-	Mat input_img = imread("C:/Users/raj.yadav/Documents/Python Scripts/image_processing/lane.jpg");
+	Mat input_img = imread("lane.jpg");
 	Mat gray_img = RGB2Gray(input_img);
 	imshow("gray_image1", gray_img);
 	waitKey(0);
